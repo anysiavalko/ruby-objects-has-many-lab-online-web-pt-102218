@@ -13,6 +13,8 @@ class Song
   @@all = []
   
   def artist_name
-   self.artist.name
+    if self.artist
+     self.artist.name
+    end
   end
 end
