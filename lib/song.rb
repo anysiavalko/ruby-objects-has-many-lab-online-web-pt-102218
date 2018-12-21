@@ -18,5 +18,5 @@ class Song
     end
   end
 end
- #Self.artist.name if self.artist 
+ #self.artist.name if self.artist 
  #self.artist && self.artist.name 
