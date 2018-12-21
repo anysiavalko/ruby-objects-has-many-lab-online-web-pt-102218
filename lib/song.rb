@@ -11,4 +11,8 @@ class Song
   end
   
   @@all = []
+  
+  def artist_name
+    song.artist
+  end
 end
