@@ -7,8 +7,8 @@ class Author
     @@post_count
   end
   
-  def initialize(name)
-    @name = name
+  def initialize(title)
+    @title = title
     @posts = []
   end
   
